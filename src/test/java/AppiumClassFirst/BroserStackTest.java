@@ -33,7 +33,7 @@ public class BroserStackTest {
 
         AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(new URL("https://"+userName+":"+accessKey+"@hub-cloud.browserstack.com/wd/hub"), caps);
 
-
+        System.out.println("driver = " + driver);
         driver.quit();
     }
 }
